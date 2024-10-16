@@ -186,7 +186,7 @@ namespace GameZone.Controllers
 
             if (entity.GamersGames.Any(gr => gr.GamerId == currentUserId))
             {
-                return RedirectToAction(nameof(MyZone));
+                return RedirectToAction(nameof(All)); // If a User tries to add an already added game to their collection, they should be redirected to /Game/All (or just a page refresh)
             }
 
             entity.GamersGames.Add(new GamerGame()
@@ -197,7 +197,7 @@ namespace GameZone.Controllers
 
             await context.SaveChangesAsync();
 
-            return RedirectToAction(nameof(MyZone));
+            return RedirectToAction(nameof(MyZone)); // Upon successful Adding a Game to the User's collection, should be redirected to the /Game/MyZone
         }
 
         [HttpGet]

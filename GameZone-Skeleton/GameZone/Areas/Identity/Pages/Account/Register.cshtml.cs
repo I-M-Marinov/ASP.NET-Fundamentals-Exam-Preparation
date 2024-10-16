@@ -100,10 +100,18 @@ namespace GameZone.Areas.Identity.Pages.Account
         }
 
 
-        public async Task OnGetAsync(string returnUrl = null)
+        public async Task<IActionResult> OnGetAsync(string returnUrl = null)
         {
+            if (User.Identity.IsAuthenticated)
+            {
+                _logger.LogInformation($"--------------------Logged in user {User.Identity.Name} redirected to Game/All tried to access Register page."); // logging an attempt of a logged-in user trying to access the Register page
+                return RedirectToAction("All", "Game"); // Redirect authenticated users
+            }
+
             ReturnUrl = returnUrl;
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
+
+            return Page();
         }
 
         public async Task<IActionResult> OnPostAsync(string returnUrl = null)
