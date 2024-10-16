@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7291DD2E-913C-45B2-9E86-5DE5C1B88957}|GameZone\\GameZone.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\gamezone-skeleton\\gamezone\\views\\game\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7291DD2E-913C-45B2-9E86-5DE5C1B88957}|GameZone\\GameZone.csproj|solutionrelative:gamezone\\views\\game\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7291DD2E-913C-45B2-9E86-5DE5C1B88957}|GameZone\\GameZone.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\gamezone-skeleton\\gamezone\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7291DD2E-913C-45B2-9E86-5DE5C1B88957}|GameZone\\GameZone.csproj|solutionrelative:gamezone\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7291DD2E-913C-45B2-9E86-5DE5C1B88957}|GameZone\\GameZone.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\gamezone-skeleton\\gamezone\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7291DD2E-913C-45B2-9E86-5DE5C1B88957}|GameZone\\GameZone.csproj|solutionrelative:gamezone\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7291DD2E-913C-45B2-9E86-5DE5C1B88957}|GameZone\\GameZone.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\gamezone-skeleton\\gamezone\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7291DD2E-913C-45B2-9E86-5DE5C1B88957}|GameZone\\GameZone.csproj|solutionrelative:gamezone\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7291DD2E-913C-45B2-9E86-5DE5C1B88957}|GameZone\\GameZone.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\gamezone-skeleton\\gamezone\\models\\gameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7291DD2E-913C-45B2-9E86-5DE5C1B88957}|GameZone\\GameZone.csproj|solutionrelative:gamezone\\models\\gameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7291DD2E-913C-45B2-9E86-5DE5C1B88957}|GameZone\\GameZone.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\gamezone-skeleton\\gamezone\\views\\game\\all.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7291DD2E-913C-45B2-9E86-5DE5C1B88957}|GameZone\\GameZone.csproj|solutionrelative:gamezone\\views\\game\\all.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7291DD2E-913C-45B2-9E86-5DE5C1B88957}|GameZone\\GameZone.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\gamezone-skeleton\\gamezone\\constants\\validationconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,14 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7291DD2E-913C-45B2-9E86-5DE5C1B88957}|GameZone\\GameZone.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\gamezone-skeleton\\gamezone\\views\\game\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7291DD2E-913C-45B2-9E86-5DE5C1B88957}|GameZone\\GameZone.csproj|solutionrelative:gamezone\\views\\game\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7291DD2E-913C-45B2-9E86-5DE5C1B88957}|GameZone\\GameZone.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\gamezone-skeleton\\gamezone\\views\\game\\all.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7291DD2E-913C-45B2-9E86-5DE5C1B88957}|GameZone\\GameZone.csproj|solutionrelative:gamezone\\views\\game\\all.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7291DD2E-913C-45B2-9E86-5DE5C1B88957}|GameZone\\GameZone.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\gamezone-skeleton\\gamezone\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7291DD2E-913C-45B2-9E86-5DE5C1B88957}|GameZone\\GameZone.csproj|solutionrelative:gamezone\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7291DD2E-913C-45B2-9E86-5DE5C1B88957}|GameZone\\GameZone.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\gamezone-skeleton\\gamezone\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -78,11 +86,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "ValidationConstants.cs",
               "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Constants\\ValidationConstants.cs",
               "RelativeDocumentMoniker": "GameZone\\Constants\\ValidationConstants.cs",
@@ -96,13 +104,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GameController.cs",
               "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Controllers\\GameController.cs",
               "RelativeDocumentMoniker": "GameZone\\Controllers\\GameController.cs",
               "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Controllers\\GameController.cs",
               "RelativeToolTip": "GameZone\\Controllers\\GameController.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAACgAAAADAAAA",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAwwIcAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-16T14:01:26.225Z",
               "IsPinned": true,
@@ -110,119 +118,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Add.cshtml",
-              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Views\\Game\\Add.cshtml",
-              "RelativeDocumentMoniker": "GameZone\\Views\\Game\\Add.cshtml",
-              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Views\\Game\\Add.cshtml",
-              "RelativeToolTip": "GameZone\\Views\\Game\\Add.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABFAAAA",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Views\\Game\\Edit.cshtml",
+              "RelativeDocumentMoniker": "GameZone\\Views\\Game\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Views\\Game\\Edit.cshtml",
+              "RelativeToolTip": "GameZone\\Views\\Game\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-16T14:33:20.59Z",
+              "WhenOpened": "2024-10-16T15:35:20.739Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Login.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeDocumentMoniker": "GameZone\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeToolTip": "GameZone\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ViewState": "AQIAAEoAAAAAAAAAAAAuwGYAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "GameZone\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "GameZone\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAAH4AAAAAAAAAAAAkwJYAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T14:27:31.113Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "All.cshtml",
-              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Views\\Game\\All.cshtml",
-              "RelativeDocumentMoniker": "GameZone\\Views\\Game\\All.cshtml",
-              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Views\\Game\\All.cshtml",
-              "RelativeToolTip": "GameZone\\Views\\Game\\All.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-16T14:13:54.067Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GameInfoViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Models\\GameInfoViewModel.cs",
-              "RelativeDocumentMoniker": "GameZone\\Models\\GameInfoViewModel.cs",
-              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Models\\GameInfoViewModel.cs",
-              "RelativeToolTip": "GameZone\\Models\\GameInfoViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T14:08:47.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GameViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Models\\GameViewModel.cs",
-              "RelativeDocumentMoniker": "GameZone\\Models\\GameViewModel.cs",
-              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Models\\GameViewModel.cs",
-              "RelativeToolTip": "GameZone\\Models\\GameViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T14:04:33.484Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "20241016134319_InitialMigration.cs",
-              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Migrations\\20241016134319_InitialMigration.cs",
-              "RelativeDocumentMoniker": "GameZone\\Migrations\\20241016134319_InitialMigration.cs",
-              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Migrations\\20241016134319_InitialMigration.cs",
-              "RelativeToolTip": "GameZone\\Migrations\\20241016134319_InitialMigration.cs",
-              "ViewState": "AQIAAKwAAAAAAAAAAAAtwMsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T13:43:20.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "GameZoneDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Data\\GameZoneDbContext.cs",
-              "RelativeDocumentMoniker": "GameZone\\Data\\GameZoneDbContext.cs",
-              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Data\\GameZoneDbContext.cs",
-              "RelativeToolTip": "GameZone\\Data\\GameZoneDbContext.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAqwCAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T13:13:17.447Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GamerGame.cs",
-              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Data\\GamerGame.cs",
-              "RelativeDocumentMoniker": "GameZone\\Data\\GamerGame.cs",
-              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Data\\GamerGame.cs",
-              "RelativeToolTip": "GameZone\\Data\\GamerGame.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T13:13:01.107Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Genre.cs",
-              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Data\\Genre.cs",
-              "RelativeDocumentMoniker": "GameZone\\Data\\Genre.cs",
-              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Data\\Genre.cs",
-              "RelativeToolTip": "GameZone\\Data\\Genre.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T13:12:41.692Z",
+              "WhenOpened": "2024-10-16T15:18:43.881Z",
               "EditorCaption": ""
             },
             {
@@ -259,7 +176,124 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Views\\Game\\Add.cshtml",
+              "RelativeDocumentMoniker": "GameZone\\Views\\Game\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Views\\Game\\Add.cshtml",
+              "RelativeToolTip": "GameZone\\Views\\Game\\Add.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T14:33:20.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "GameZone\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "GameZone\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAkwHgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T14:27:31.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "All.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Views\\Game\\All.cshtml",
+              "RelativeDocumentMoniker": "GameZone\\Views\\Game\\All.cshtml",
+              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Views\\Game\\All.cshtml",
+              "RelativeToolTip": "GameZone\\Views\\Game\\All.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T14:13:54.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GameInfoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Models\\GameInfoViewModel.cs",
+              "RelativeDocumentMoniker": "GameZone\\Models\\GameInfoViewModel.cs",
+              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Models\\GameInfoViewModel.cs",
+              "RelativeToolTip": "GameZone\\Models\\GameInfoViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T14:08:47.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Models\\GameViewModel.cs",
+              "RelativeDocumentMoniker": "GameZone\\Models\\GameViewModel.cs",
+              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Models\\GameViewModel.cs",
+              "RelativeToolTip": "GameZone\\Models\\GameViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T14:04:33.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20241016134319_InitialMigration.cs",
+              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Migrations\\20241016134319_InitialMigration.cs",
+              "RelativeDocumentMoniker": "GameZone\\Migrations\\20241016134319_InitialMigration.cs",
+              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Migrations\\20241016134319_InitialMigration.cs",
+              "RelativeToolTip": "GameZone\\Migrations\\20241016134319_InitialMigration.cs",
+              "ViewState": "AQIAAKwAAAAAAAAAAAAtwMsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T13:43:20.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GameZoneDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Data\\GameZoneDbContext.cs",
+              "RelativeDocumentMoniker": "GameZone\\Data\\GameZoneDbContext.cs",
+              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Data\\GameZoneDbContext.cs",
+              "RelativeToolTip": "GameZone\\Data\\GameZoneDbContext.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAqwCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T13:13:17.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GamerGame.cs",
+              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Data\\GamerGame.cs",
+              "RelativeDocumentMoniker": "GameZone\\Data\\GamerGame.cs",
+              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Data\\GamerGame.cs",
+              "RelativeToolTip": "GameZone\\Data\\GamerGame.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T13:13:01.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Genre.cs",
+              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Data\\Genre.cs",
+              "RelativeDocumentMoniker": "GameZone\\Data\\Genre.cs",
+              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Data\\Genre.cs",
+              "RelativeToolTip": "GameZone\\Data\\Genre.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T13:12:41.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Game.cs",
               "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Data\\Game.cs",
               "RelativeDocumentMoniker": "GameZone\\Data\\Game.cs",
@@ -272,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "GameZone\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
@@ -285,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "GameZone\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
@@ -298,7 +332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "ScaffoldingReadMe.txt",
               "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\ScaffoldingReadMe.txt",
               "RelativeDocumentMoniker": "GameZone\\ScaffoldingReadMe.txt",
@@ -311,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\appsettings.json",
               "RelativeDocumentMoniker": "GameZone\\appsettings.json",
@@ -324,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\Program.cs",
               "RelativeDocumentMoniker": "GameZone\\Program.cs",

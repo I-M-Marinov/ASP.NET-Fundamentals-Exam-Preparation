@@ -1,8 +1,9 @@
-﻿using GameZone.Data;
+﻿using System.Globalization;
+using System.Security.Claims;
+using GameZone.Data;
 using GameZone.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using static GameZone.Constants.ValidationConstants;
 
@@ -45,7 +46,7 @@ namespace GameZone.Controllers
 		{
 			var model = new GameViewModel();
 
-            model.Genres = await context.Genres.AsNoTracking().ToListAsync();
+            model.Genres = await GetGenres();
                 
 			return View(model);
 		}
@@ -53,28 +54,120 @@ namespace GameZone.Controllers
 		[HttpPost]
 		public async Task<IActionResult> Add(GameViewModel model)
 		{
-			return View();
+
+            if (!ModelState.IsValid)
+            {
+                model.Genres = await GetGenres();
+                return View(model);
+            }
+
+            DateTime releasedOn;
+
+            if (DateTime.TryParseExact(model.ReleasedOn, GameReleasedOnFormat, CultureInfo.CurrentCulture, DateTimeStyles.None, out releasedOn) == false)
+            {
+				ModelState.AddModelError(nameof(model.ReleasedOn),"Invalid date format!");
+                model.Genres = await GetGenres();
+                return View(model);
+            }
+
+            Game game = new Game()
+            {
+				Description = model.Description,
+				GenreId = model.GenreId,
+				ImageUrl = model.ImageUrl,
+				PublisherId = GetCurrentUserId() ?? string.Empty,
+				ReleasedOn = releasedOn,
+				Title = model.Title
+            };
+
+			await context.Games.AddAsync(game);
+			await context.SaveChangesAsync();
+
+			return RedirectToAction(nameof(All));
 		}
 
 
 		[HttpGet]
 		public async Task<IActionResult> Edit(int id)
-		{
-			var model = new GameViewModel();
+        {
+            var model = await context.Games
+                .Where(g => g.Id == id)
+                .Where(g => g.IsDeleted == false)
+                .AsNoTracking()
+                .Select(g => new GameViewModel()
+                {
+					Description = g.Description,
+					GenreId = g.GenreId,
+					ImageUrl = g.ImageUrl,
+					ReleasedOn = g.ReleasedOn.ToString(GameReleasedOnFormat),
+					Title = g.Title
+                })
+                .FirstOrDefaultAsync();
+
+            model.Genres = await GetGenres();
 
 			return View(model);
 		}
 
 		[HttpPost]
-		public async Task<IActionResult> Edit(GameViewModel model)
+		public async Task<IActionResult> Edit(GameViewModel model, int id)
 		{
-			return View(model);
-		}
+            if (!ModelState.IsValid)
+            {
+                model.Genres = await GetGenres();
+                return View(model);
+            }
+
+            DateTime releasedOn;
+
+            if (DateTime.TryParseExact(model.ReleasedOn, GameReleasedOnFormat, CultureInfo.CurrentCulture, DateTimeStyles.None, out releasedOn) == false)
+            {
+                ModelState.AddModelError(nameof(model.ReleasedOn), "Invalid date format!");
+                model.Genres = await GetGenres();
+                return View(model);
+            }
+
+            Game? entity = await context.Games.FindAsync(id);
+
+            if (entity == null || entity.IsDeleted) 
+            {
+                throw new ArgumentException("Invalid Id");
+            }
+
+            entity.Description = model.Description;
+            entity.GenreId = model.GenreId;
+            entity.ImageUrl = model.ImageUrl;
+            entity.PublisherId = GetCurrentUserId() ?? string.Empty;
+            entity.ReleasedOn = releasedOn;
+            entity.Title = model.Title;
+
+            await context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(All));
+        }
 
 		[HttpGet]
 		public async Task<IActionResult> MyZone()
-		{
-			return View(new List<GameInfoViewModel>());
+        {
+            string currentUserId = GetCurrentUserId() ?? string.Empty;
+
+            var model = await context.Games
+                .Where(g => g.IsDeleted == false)
+                .Where(g => g.GamersGames.Any(gr => gr.GamerId == currentUserId))
+                .Select(g => new GameInfoViewModel()
+                {
+                    Id = g.Id,
+                    Genre = g.Genre.Name,
+                    ImageUrl = g.ImageUrl,
+                    Publisher = g.Publisher.UserName ?? string.Empty,
+                    ReleasedOn = g.ReleasedOn.ToString(GameReleasedOnFormat),
+                    Title = g.Title
+                })
+                .AsNoTracking()
+                .ToListAsync();
+
+
+            return View(new List<GameInfoViewModel>());
 		}
 
 		[HttpGet]
@@ -102,5 +195,14 @@ namespace GameZone.Controllers
 			return View();
 		}
 
+		private string? GetCurrentUserId()
+        {
+            return User.FindFirstValue(ClaimTypes.NameIdentifier);
+        }
+
+        private async Task<List<Genre>> GetGenres()
+        {
+            return await context.Genres.AsNoTracking().ToListAsync();
+        } 
 	}
 }

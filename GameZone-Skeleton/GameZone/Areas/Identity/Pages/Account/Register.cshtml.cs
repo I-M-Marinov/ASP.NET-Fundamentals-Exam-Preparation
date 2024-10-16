@@ -141,7 +141,7 @@ namespace GameZone.Areas.Identity.Pages.Account
                     else
                     {
                         await _signInManager.SignInAsync(user, isPersistent: false);
-                        return LocalRedirect(returnUrl);
+                        return RedirectToAction("All", "Game"); // Upon successful Login of an IdentityUser, you should be redirected to the /Game/All
                     }
                 }
                 foreach (var error in result.Errors)
