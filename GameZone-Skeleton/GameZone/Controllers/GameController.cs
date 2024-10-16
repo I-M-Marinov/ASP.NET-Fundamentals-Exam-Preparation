@@ -229,16 +229,61 @@ namespace GameZone.Controllers
 		[HttpGet]
 		public async Task<IActionResult> Details(int id)
 		{
-			return View();
-		}
+            var model = await context.Games
+                .Where(g => g.Id == id)
+                .Where(g => g.IsDeleted == false)
+                .AsNoTracking()
+                .Select(g => new GameDetailsViewModel()
+                {
+                    Id = g.Id,
+                    Description = g.Description,
+                    Genre = g.Genre.Name,
+                    ImageUrl = g.ImageUrl,
+                    ReleasedOn = g.ReleasedOn.ToString(GameReleasedOnFormat),
+                    Title = g.Title,
+                    Publisher = g.Publisher.UserName ?? string.Empty
+                })
+                .FirstOrDefaultAsync();
+
+            return View(model);
+        }
 
 		[HttpGet]
 		public async Task<IActionResult> Delete(int id)
 		{
-			return View();
-		}
+            var model = await context.Games
+                .Where(g => g.Id == id)
+                .Where(g => g.IsDeleted == false)
+                .AsNoTracking()
+                .Select(g => new DeleteGameViewModel()
+                {
+                    Id = g.Id,
+                    Title = g.Title,
+                    Publisher = g.Publisher.UserName ?? string.Empty
+                })
+                .FirstOrDefaultAsync();
 
-		private string? GetCurrentUserId()
+            return View(model);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> DeleteConfirmed(DeleteGameViewModel model)
+        {
+            Game? game = await context.Games
+                .Where(g => g.Id == model.Id)
+                .Where(g => g.IsDeleted == false)
+                .FirstOrDefaultAsync();
+
+            if (game != null)
+            {
+                game.IsDeleted = true;
+                await context.SaveChangesAsync();
+            }
+
+            return RedirectToAction(nameof(All));
+        }
+
+        private string? GetCurrentUserId()
         {
             return User.FindFirstValue(ClaimTypes.NameIdentifier);
         }
