@@ -89,9 +89,20 @@ namespace GameZone.Controllers
 		[HttpGet]
 		public async Task<IActionResult> Edit(int id)
         {
+            var currentUserId = GetCurrentUserId();
+
+            var isGameCreator = await context.Games
+                .AnyAsync(g => g.PublisherId == currentUserId && g.Id == id); 
+
+            var isDeleted = await context.Games.AnyAsync(g => g.Id == id && g.IsDeleted == true);
+
+            if (!isGameCreator || isDeleted) // check if the user is the publisher of the game he wants to edit or the game was deleted already
+            {
+                return RedirectToAction(nameof(All)); // If yes ----> Redirects the user to the Game/All page ... ideally we might use ViewBag to save a message and display it in the VIEW 
+            }
+
             var model = await context.Games
                 .Where(g => g.Id == id)
-                .Where(g => g.IsDeleted == false)
                 .AsNoTracking()
                 .Select(g => new GameViewModel()
                 {
@@ -102,6 +113,7 @@ namespace GameZone.Controllers
 					Title = g.Title
                 })
                 .FirstOrDefaultAsync();
+
 
             model.Genres = await GetGenres();
 
