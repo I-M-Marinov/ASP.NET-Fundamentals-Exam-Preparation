@@ -115,7 +115,7 @@ namespace GameZone.Areas.Identity.Pages.Account
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User logged in.");
-                    return LocalRedirect(returnUrl);
+                    return RedirectToAction("All", "Game"); // Upon successful Login of an IdentityUser, you should be redirected to the /Game/All
                 }
                 if (result.RequiresTwoFactor)
                 {
