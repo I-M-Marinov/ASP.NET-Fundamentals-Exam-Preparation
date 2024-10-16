@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\GameZone-Skeleton\\GameZone\\GameZone.csproj": {}
+    "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\GameZone.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\GameZone-Skeleton\\GameZone\\GameZone.csproj": {
+    "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\GameZone.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\GameZone-Skeleton\\GameZone\\GameZone.csproj",
+        "projectUniqueName": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\GameZone.csproj",
         "projectName": "GameZone",
-        "projectPath": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\GameZone-Skeleton\\GameZone\\GameZone.csproj",
+        "projectPath": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\GameZone.csproj",
         "packagesPath": "C:\\Users\\Marinov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\GameZone-Skeleton\\GameZone\\obj\\",
+        "outputPath": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\GameZone-Skeleton\\GameZone\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -30,8 +30,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -47,38 +47,38 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.26, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.28, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[6.0.28, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.28, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[6.0.28, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.28, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[6.0.16, )"
+              "version": "[8.0.6, )"
             }
           },
           "imports": [
@@ -100,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
