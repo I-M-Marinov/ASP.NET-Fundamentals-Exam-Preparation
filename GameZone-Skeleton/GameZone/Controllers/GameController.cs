@@ -86,7 +86,6 @@ namespace GameZone.Controllers
 			return RedirectToAction(nameof(All));
 		}
 
-
 		[HttpGet]
 		public async Task<IActionResult> Edit(int id)
         {
@@ -167,20 +166,64 @@ namespace GameZone.Controllers
                 .ToListAsync();
 
 
-            return View(new List<GameInfoViewModel>());
+            return View(model);
 		}
 
 		[HttpGet]
 		public async Task<IActionResult> AddToMyZone(int id)
-		{
-			return View();
-		}
+        {
+            Game? entity = await context.Games
+                .Where(g => g.Id == id)
+                .Include(g => g.GamersGames)
+                .FirstOrDefaultAsync();
 
-		[HttpGet]
+            if (entity == null || entity.IsDeleted)
+            {
+                throw new ArgumentException("Invalid Id");
+            }
+
+            string currentUserId = GetCurrentUserId() ?? string.Empty;
+
+            if (entity.GamersGames.Any(gr => gr.GamerId == currentUserId))
+            {
+                return RedirectToAction(nameof(MyZone));
+            }
+
+            entity.GamersGames.Add(new GamerGame()
+            {
+                GamerId = currentUserId,
+                GameId = entity.Id
+            });
+
+            await context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(MyZone));
+        }
+
+        [HttpGet]
 		public async Task<IActionResult> StrikeOut(int id)
 		{
-			return View();
-		}
+            Game? entity = await context.Games
+                .Where(g => g.Id == id)
+                .Include(g => g.GamersGames)
+                .FirstOrDefaultAsync();
+
+            if (entity == null || entity.IsDeleted)
+            {
+                throw new ArgumentException("Invalid Id");
+            }
+
+            string currentUserId = GetCurrentUserId() ?? string.Empty;
+            GamerGame? gamerGame = entity.GamersGames.FirstOrDefault(gr => gr.GamerId == currentUserId);
+
+            if (gamerGame != null)
+            {
+                entity.GamersGames.Remove(gamerGame);
+                await context.SaveChangesAsync();
+            }
+
+            return RedirectToAction(nameof(MyZone));
+        }
 
 
 		[HttpGet]
