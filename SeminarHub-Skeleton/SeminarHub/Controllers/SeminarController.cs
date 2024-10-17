@@ -7,6 +7,8 @@ using System.Globalization;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
 using static SeminarHub.ValidationConstants.Constants;
+using Microsoft.VisualBasic;
+using System;
 
 
 namespace SeminarHub.Controllers
@@ -144,19 +146,103 @@ public class SeminarController(SeminarHubDbContext _context) : Controller // USE
         }
 
         [HttpGet]
-        public async Task<IActionResult> Edit()
+        public async Task<IActionResult> Edit(int id)
         {
-            return View();
+            var currentUserId = GetCurrentUserId();
+
+            var IsOrganizer = await context.Seminars
+                .AnyAsync(g => g.OrganizerId == currentUserId && g.Id == id);
+
+            var isDeleted = await context.Seminars.AnyAsync(g => g.Id == id && g.IsDeleted == true);
+
+            if (!IsOrganizer || isDeleted) // check if the user is the organizer of the seminar he wants to edit or the seminar was deleted already
+            {
+                return RedirectToAction(nameof(All)); // If yes ----> Redirects the user to the Seminar/All page 
+            }
+
+            var model = await context.Seminars
+                .Where(g => g.Id == id)
+                .AsNoTracking()
+                .Select(s => new SeminarViewModel()
+                {
+                    Topic = s.Topic,
+                    Lecturer = s.Lecturer,
+                    Details = s.Details,
+                    DateAndTime = s.DateAndTime.ToString(DateAndTimeFormat),
+                    Duration = s.Duration,
+                    CategoryId = s.CategoryId
+                })
+                .FirstOrDefaultAsync();
+
+
+            model.Categories = await GetAllCategories();
+
+            return View(model);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Edit(SeminarViewModel model, int id)
+        {
+            if (!ModelState.IsValid)
+            {
+                model.Categories = await GetAllCategories();
+                return View(model);
+            }
+
+            DateTime dateTime;
+
+            if (DateTime.TryParseExact(model.DateAndTime, DateAndTimeFormat, CultureInfo.CurrentCulture, DateTimeStyles.None, out dateTime) == false)
+            {
+                ModelState.AddModelError(nameof(model.DateAndTime), "Invalid date and time format!");
+                model.Categories = await GetAllCategories();
+                return View(model);
+            }
+
+            Seminar? entity = await context.Seminars.FindAsync(id);
+
+            if (entity == null || entity.IsDeleted)
+            {
+                throw new ArgumentException("Invalid Id");
+            }
+
+            entity.Topic = model.Topic;
+            entity.Lecturer = model.Lecturer;
+            entity.Details = model.Details;
+            entity.DateAndTime = dateTime;
+            entity.Duration = model.Duration;
+            entity.CategoryId = model.CategoryId;
+
+            await context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(All));
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Details(int id)
+        {
+            var model = await context.Seminars
+                .Where(g => g.Id == id)
+                .Where(g => g.IsDeleted == false)
+                .AsNoTracking()
+                .Select(g => new SeminarDetailsViewModel()
+                {
+                    Id = g.Id,
+                    Topic = g.Topic,
+                    Lecturer = g.Lecturer,
+                    Category = g.Category.Name,
+                    DateAndTime = g.DateAndTime.ToString(DateAndTimeFormat),
+                    Organizer = g.Organizer.UserName ?? string.Empty,
+                    Details = g.Details,
+                    Duration = g.Duration
+                })
+                .FirstOrDefaultAsync();
+
+            return View(model);
         }
 
         private string? GetCurrentUserId()
         {
             return User.FindFirstValue(ClaimTypes.NameIdentifier);
-        }
-
-        private string? GetCurrentUserName()
-        {
-            return User.FindFirstValue(ClaimTypes.Name);
         }
 
         private async Task<List<Category>> GetAllCategories()
