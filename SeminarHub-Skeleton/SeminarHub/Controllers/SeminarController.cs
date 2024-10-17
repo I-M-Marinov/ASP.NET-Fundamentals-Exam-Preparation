@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Authorization;
 using static SeminarHub.ValidationConstants.Constants;
 using Microsoft.VisualBasic;
 using System;
+using System.Security.Policy;
 
 
 namespace SeminarHub.Controllers
@@ -141,6 +142,31 @@ public class SeminarController(SeminarHubDbContext _context) : Controller // USE
             });
 
             await context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Joined));
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Leave(int id)
+        {
+            Seminar? entity = await context.Seminars
+                .Where(g => g.Id == id)
+                .Include(g => g.SeminarsParticipants)
+                .FirstOrDefaultAsync();
+
+            if (entity == null || entity.IsDeleted)
+            {
+                throw new ArgumentException("Invalid Id");
+            }
+
+            string currentUserId = GetCurrentUserId() ?? string.Empty;
+            SeminarParticipant? seminarParticipant = entity.SeminarsParticipants.FirstOrDefault(sp => sp.ParticipantId == currentUserId);
+
+            if (seminarParticipant != null)
+            {
+                entity.SeminarsParticipants.Remove(seminarParticipant);
+                await context.SaveChangesAsync();
+            }
 
             return RedirectToAction(nameof(Joined));
         }
