@@ -3,32 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\seminarhub-skeleton\\seminarhub\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|solutionrelative:seminarhub\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\seminarhub-skeleton\\seminarhub\\controllers\\seminarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|solutionrelative:seminarhub\\controllers\\seminarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\seminarhub-skeleton\\seminarhub\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|solutionrelative:seminarhub\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\seminarhub-skeleton\\seminarhub\\data\\seminar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|solutionrelative:seminarhub\\data\\seminar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\seminarhub-skeleton\\seminarhub\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|solutionrelative:seminarhub\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\seminarhub-skeleton\\seminarhub\\models\\seminarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|solutionrelative:seminarhub\\models\\seminarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\seminarhub-skeleton\\seminarhub\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|solutionrelative:seminarhub\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\Data\\Migrations\\20241017072949_InitialMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SeminarHub\\Data\\Migrations\\20241017072949_InitialMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\seminarhub-skeleton\\seminarhub\\views\\seminar\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|solutionrelative:seminarhub\\views\\seminar\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\seminarhub-skeleton\\seminarhub\\data\\seminarhubdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|solutionrelative:seminarhub\\data\\seminarhubdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\seminarhub-skeleton\\seminarhub\\data\\seminar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|solutionrelative:seminarhub\\data\\seminar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\seminarhub-skeleton\\seminarhub\\views\\seminar\\all.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|solutionrelative:seminarhub\\views\\seminar\\all.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\seminarhub-skeleton\\seminarhub\\validationconstants\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|solutionrelative:seminarhub\\validationconstants\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\seminarhub-skeleton\\seminarhub\\models\\seminarinfoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|solutionrelative:seminarhub\\models\\seminarinfoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\Migrations\\20241017083506_CorrectDbSetSeminars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SeminarHub\\Migrations\\20241017083506_CorrectDbSetSeminars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\seminarhub-skeleton\\seminarhub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|solutionrelative:seminarhub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\seminarhub-skeleton\\seminarhub\\data\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,12 +51,16 @@
       "RelativeMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|solutionrelative:seminarhub\\data\\seminarparticipant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\seminarhub-skeleton\\seminarhub\\validationconstants\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|solutionrelative:seminarhub\\validationconstants\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\seminarhub-skeleton\\seminarhub\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|solutionrelative:seminarhub\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\seminarhub-skeleton\\seminarhub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|solutionrelative:seminarhub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\seminarhub-skeleton\\seminarhub\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|solutionrelative:seminarhub\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\seminarhub-skeleton\\seminarhub\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|solutionrelative:seminarhub\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\seminarhub-skeleton\\seminarhub\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -58,17 +74,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "Constants.cs",
               "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\ValidationConstants\\Constants.cs",
               "RelativeDocumentMoniker": "SeminarHub\\ValidationConstants\\Constants.cs",
               "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\ValidationConstants\\Constants.cs",
               "RelativeToolTip": "SeminarHub\\ValidationConstants\\Constants.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-17T07:02:31.075Z",
               "IsPinned": true,
@@ -76,67 +92,30 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "SeminarHub\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "SeminarHub\\wwwroot\\css\\site.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-17T07:48:04.682Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "SeminarHub\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeToolTip": "SeminarHub\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T07:47:35.749Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Logout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "RelativeDocumentMoniker": "SeminarHub\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "RelativeToolTip": "SeminarHub\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T07:47:34.218Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "SeminarHub\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeToolTip": "SeminarHub\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T07:45:25.907Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20241017072949_InitialMigration.cs",
-              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\Data\\Migrations\\20241017072949_InitialMigration.cs",
-              "RelativeDocumentMoniker": "SeminarHub\\Data\\Migrations\\20241017072949_InitialMigration.cs",
-              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\Data\\Migrations\\20241017072949_InitialMigration.cs",
-              "RelativeToolTip": "SeminarHub\\Data\\Migrations\\20241017072949_InitialMigration.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAgwHIAAAAuAAAA",
+              "Title": "SeminarController.cs",
+              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\Controllers\\SeminarController.cs",
+              "RelativeDocumentMoniker": "SeminarHub\\Controllers\\SeminarController.cs",
+              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\Controllers\\SeminarController.cs*",
+              "RelativeToolTip": "SeminarHub\\Controllers\\SeminarController.cs*",
+              "ViewState": "AQIAACcAAAAAAAAAAIA8wE4AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T07:29:49.74Z",
+              "WhenOpened": "2024-10-17T07:52:24.922Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SeminarViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\Models\\SeminarViewModel.cs",
+              "RelativeDocumentMoniker": "SeminarHub\\Models\\SeminarViewModel.cs",
+              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\Models\\SeminarViewModel.cs",
+              "RelativeToolTip": "SeminarHub\\Models\\SeminarViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T08:49:50.331Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -173,7 +152,98 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\Views\\Seminar\\Add.cshtml",
+              "RelativeDocumentMoniker": "SeminarHub\\Views\\Seminar\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\Views\\Seminar\\Add.cshtml",
+              "RelativeToolTip": "SeminarHub\\Views\\Seminar\\Add.cshtml",
+              "ViewState": "AQIAAAgAAAAAAAAAAAApwCQAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T09:02:57.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SeminarInfoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\Models\\SeminarInfoViewModel.cs",
+              "RelativeDocumentMoniker": "SeminarHub\\Models\\SeminarInfoViewModel.cs",
+              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\Models\\SeminarInfoViewModel.cs",
+              "RelativeToolTip": "SeminarHub\\Models\\SeminarInfoViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T08:37:25.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "20241017083506_CorrectDbSetSeminars.cs",
+              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\Migrations\\20241017083506_CorrectDbSetSeminars.cs",
+              "RelativeDocumentMoniker": "SeminarHub\\Migrations\\20241017083506_CorrectDbSetSeminars.cs",
+              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\Migrations\\20241017083506_CorrectDbSetSeminars.cs",
+              "RelativeToolTip": "SeminarHub\\Migrations\\20241017083506_CorrectDbSetSeminars.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAWwH4AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T08:35:06.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "All.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\Views\\Seminar\\All.cshtml",
+              "RelativeDocumentMoniker": "SeminarHub\\Views\\Seminar\\All.cshtml",
+              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\Views\\Seminar\\All.cshtml",
+              "RelativeToolTip": "SeminarHub\\Views\\Seminar\\All.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T07:56:34.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "SeminarHub\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "SeminarHub\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T07:47:35.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "SeminarHub\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "SeminarHub\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T07:47:34.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "SeminarHub\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "SeminarHub\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T07:45:25.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "SeminarParticipant.cs",
               "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\Data\\SeminarParticipant.cs",
               "RelativeDocumentMoniker": "SeminarHub\\Data\\SeminarParticipant.cs",
@@ -186,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\Data\\Category.cs",
               "RelativeDocumentMoniker": "SeminarHub\\Data\\Category.cs",
@@ -199,46 +269,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Seminar.cs",
               "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\Data\\Seminar.cs",
               "RelativeDocumentMoniker": "SeminarHub\\Data\\Seminar.cs",
               "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\Data\\Seminar.cs",
               "RelativeToolTip": "SeminarHub\\Data\\Seminar.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwDQAAAAAAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwCEAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-17T06:58:09.762Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\Program.cs",
               "RelativeDocumentMoniker": "SeminarHub\\Program.cs",
               "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\Program.cs",
               "RelativeToolTip": "SeminarHub\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA6AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-17T06:54:47.002Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "SeminarHubDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\Data\\SeminarHubDbContext.cs",
               "RelativeDocumentMoniker": "SeminarHub\\Data\\SeminarHubDbContext.cs",
               "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\Data\\SeminarHubDbContext.cs",
               "RelativeToolTip": "SeminarHub\\Data\\SeminarHubDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-17T06:54:40.631Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\SeminarHub-Skeleton\\SeminarHub\\appsettings.json",
               "RelativeDocumentMoniker": "SeminarHub\\appsettings.json",

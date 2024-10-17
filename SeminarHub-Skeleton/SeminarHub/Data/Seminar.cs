@@ -48,5 +48,6 @@ namespace SeminarHub.Data
         public Category Category { get; set; }
 
         public ICollection<SeminarParticipant> SeminarsParticipants { get; set; } = new List<SeminarParticipant>();
+        public bool? IsDeleted { get; set; } // Implementation of Soft Delete
     }
 }

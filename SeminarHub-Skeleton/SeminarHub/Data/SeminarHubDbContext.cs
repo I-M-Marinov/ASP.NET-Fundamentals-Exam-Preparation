@@ -38,7 +38,7 @@ namespace SeminarHub.Data
             base.OnModelCreating(builder);
         }
 
-        public DbSet<Seminar> SeminarSet { get; set; }
+        public DbSet<Seminar> Seminars { get; set; }
 
         public DbSet<Category> Categories { get; set; }
 

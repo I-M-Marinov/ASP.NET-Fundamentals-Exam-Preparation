@@ -8,10 +8,10 @@ using SeminarHub.Data;
 
 #nullable disable
 
-namespace SeminarHub.Data.Migrations
+namespace SeminarHub.Migrations
 {
     [DbContext(typeof(SeminarHubDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    partial class SeminarHubDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
@@ -292,6 +292,9 @@ namespace SeminarHub.Data.Migrations
                         .HasColumnType("int")
                         .HasComment("Duration of the seminar");
 
+                    b.Property<bool?>("IsDeleted")
+                        .HasColumnType("bit");
+
                     b.Property<string>("Lecturer")
                         .IsRequired()
                         .HasMaxLength(60)
@@ -314,7 +317,7 @@ namespace SeminarHub.Data.Migrations
 
                     b.HasIndex("OrganizerId");
 
-                    b.ToTable("SeminarSet");
+                    b.ToTable("Seminars");
                 });
 
             modelBuilder.Entity("SeminarHub.Data.SeminarParticipant", b =>
