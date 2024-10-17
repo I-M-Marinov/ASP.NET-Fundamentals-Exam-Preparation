@@ -240,6 +240,41 @@ public class SeminarController(SeminarHubDbContext _context) : Controller // USE
             return View(model);
         }
 
+        [HttpGet]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var model = await context.Seminars
+                .Where(s => s.Id == id)
+                .Where(s => s.IsDeleted == false)
+                .AsNoTracking()
+                .Select(s => new SeminarDeleteViewModel()
+                {
+                    Id = s.Id,
+                    Topic = s.Topic,
+                    DateAndTime = s.DateAndTime
+                })
+                .FirstOrDefaultAsync();
+
+            return View(model);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> DeleteConfirmed(SeminarDeleteViewModel model)
+        {
+            Seminar? seminarToDelete = await context.Seminars
+                .Where(s => s.Id == model.Id)
+                .Where(s => s.IsDeleted == false)
+                .FirstOrDefaultAsync();
+
+            if (seminarToDelete != null)
+            {
+                seminarToDelete.IsDeleted = true; // SOFT DELETE // 
+                await context.SaveChangesAsync();
+            }
+
+            return RedirectToAction(nameof(All));
+        }
+
         private string? GetCurrentUserId()
         {
             return User.FindFirstValue(ClaimTypes.NameIdentifier);
