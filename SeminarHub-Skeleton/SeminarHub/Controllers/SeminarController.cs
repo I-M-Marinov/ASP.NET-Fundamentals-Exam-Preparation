@@ -269,9 +269,20 @@ public class SeminarController(SeminarHubDbContext _context) : Controller // USE
         [HttpGet]
         public async Task<IActionResult> Delete(int id)
         {
+            var currentUserId = GetCurrentUserId();
+
+            var IsOrganizer = await context.Seminars
+                .AnyAsync(g => g.OrganizerId == currentUserId && g.Id == id);
+
+            var isDeleted = await context.Seminars.AnyAsync(g => g.Id == id && g.IsDeleted == true);
+
+            if (!IsOrganizer || isDeleted) // check if the user is the organizer of the seminar he wants to edit or the seminar was deleted already
+            {
+                return RedirectToAction(nameof(All)); // If yes ----> Redirects the user to the Seminar/All page 
+            }
+
             var model = await context.Seminars
                 .Where(s => s.Id == id)
-                .Where(s => s.IsDeleted == false)
                 .AsNoTracking()
                 .Select(s => new SeminarDeleteViewModel()
                 {
