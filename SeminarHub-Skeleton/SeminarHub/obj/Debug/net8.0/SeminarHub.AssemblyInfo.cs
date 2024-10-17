@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SeminarHub")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1901b23d7ec84b5654cc20b1a2d17a98ea1261a3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c66e41de9895f1a7e326cca5f3bcc0867a96ab54")]
 [assembly: System.Reflection.AssemblyProductAttribute("SeminarHub")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SeminarHub")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -12,30 +12,36 @@ namespace SeminarHub.Data
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
-            //builder
-            //   .Entity<Category>()
-            //   .HasData(new Category()
-            //   {
-            //       Id = 1,
-            //       Name = "Technology & Innovation"
-            //   },
-            //   new Category()
-            //   {
-            //       Id = 2,
-            //       Name = "Business & Entrepreneurship"
-            //   },
-            //   new Category()
-            //   {
-            //       Id = 3,
-            //       Name = "Science & Research"
-            //   },
-            //   new Category()
-            //   {
-            //       Id = 4,
-            //       Name = "Arts & Culture"
-            //   });
+            builder
+               .Entity<Category>()
+               .HasData(new Category()
+               {
+                   Id = 1,
+                   Name = "Technology & Innovation"
+               },
+               new Category()
+               {
+                   Id = 2,
+                   Name = "Business & Entrepreneurship"
+               },
+               new Category()
+               {
+                   Id = 3,
+                   Name = "Science & Research"
+               },
+               new Category()
+               {
+                   Id = 4,
+                   Name = "Arts & Culture"
+               });
 
             base.OnModelCreating(builder);
         }
+
+        public DbSet<Seminar> SeminarSet { get; set; }
+
+        public DbSet<Category> Categories { get; set; }
+
+        public DbSet<SeminarParticipant> SeminarsParticipants { get; set; }
     }
 }
