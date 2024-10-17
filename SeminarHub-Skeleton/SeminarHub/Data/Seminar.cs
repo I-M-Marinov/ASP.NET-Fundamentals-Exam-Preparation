@@ -45,9 +45,9 @@ namespace SeminarHub.Data
         public int CategoryId { get; set; }
 
         [ForeignKey(nameof(CategoryId))]
-        public Category Category { get; set; }
+        public Category Category { get; set; } = null!;
 
         public ICollection<SeminarParticipant> SeminarsParticipants { get; set; } = new List<SeminarParticipant>();
-        public bool? IsDeleted { get; set; } // Implementation of Soft Delete
+        public bool IsDeleted { get; set; } // Implementation of Soft Delete
     }
 }

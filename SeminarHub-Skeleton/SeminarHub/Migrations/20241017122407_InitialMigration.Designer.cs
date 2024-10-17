@@ -12,8 +12,8 @@ using SeminarHub.Data;
 namespace SeminarHub.Migrations
 {
     [DbContext(typeof(SeminarHubDbContext))]
-    [Migration("20241017083506_CorrectDbSetSeminars")]
-    partial class CorrectDbSetSeminars
+    [Migration("20241017122407_InitialMigration")]
+    partial class InitialMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -295,7 +295,7 @@ namespace SeminarHub.Migrations
                         .HasColumnType("int")
                         .HasComment("Duration of the seminar");
 
-                    b.Property<bool?>("IsDeleted")
+                    b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
                     b.Property<string>("Lecturer")

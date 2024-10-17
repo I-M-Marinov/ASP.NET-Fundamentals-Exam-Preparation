@@ -30,7 +30,7 @@ public class SeminarController(SeminarHubDbContext _context) : Controller // USE
                     Lecturer = s.Lecturer,
                     Category = s.Category.Name,
                     DateAndTime = s.DateAndTime.ToString(DateAndTimeFormat),
-                    Organizer = GetCurrentUserName() ?? string.Empty
+                    Organizer = s.Organizer.UserName ?? string.Empty
                 })
                 .AsNoTracking()
                 .ToListAsync();
@@ -87,14 +87,76 @@ public class SeminarController(SeminarHubDbContext _context) : Controller // USE
             return RedirectToAction(nameof(All));
         }
 
-        private string? GetCurrentUserName()
+        [HttpGet]
+        public async Task<IActionResult> Joined()
         {
-            return User.FindFirstValue(ClaimTypes.Name);
+            
+            string currentUserId = GetCurrentUserId() ?? string.Empty;
+
+            var model = await context.Seminars
+                .Where(s => s.IsDeleted == false)
+                .Where(s => s.SeminarsParticipants.Any(sp => sp.ParticipantId == currentUserId))
+                .Select(s => new SeminarInfoViewModel()
+                {
+                    Id = s.Id,
+                    Topic = s.Topic,
+                    Lecturer = s.Lecturer,
+                    Category = s.Category.Name,
+                    DateAndTime = s.DateAndTime.ToString(DateAndTimeFormat),
+                    Organizer = s.Organizer.UserName ?? string.Empty
+                })
+                .AsNoTracking()
+                .ToListAsync();
+
+            return View(model);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Join(int id)
+        {
+
+            Seminar? entity = await context.Seminars
+                .Where(s => s.Id == id)
+                .Include(s => s.SeminarsParticipants)
+                .FirstOrDefaultAsync();
+
+            if (entity == null || entity.IsDeleted)
+            {
+                throw new ArgumentException("Invalid Id");
+            }
+
+            string currentUserId = GetCurrentUserId() ?? string.Empty;
+
+            if (entity.SeminarsParticipants.Any(sp => sp.ParticipantId == currentUserId))
+            {
+                return RedirectToAction(nameof(All)); // If a User tries to add an already added seminar to his seminars, they should be redirected to /Seminar/All (or just a page refresh)
+            }
+
+            entity.SeminarsParticipants.Add(new SeminarParticipant()
+            {
+                ParticipantId = currentUserId,
+                SeminarId = entity.Id
+            });
+
+            await context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Joined));
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Edit()
+        {
+            return View();
         }
 
         private string? GetCurrentUserId()
         {
             return User.FindFirstValue(ClaimTypes.NameIdentifier);
+        }
+
+        private string? GetCurrentUserName()
+        {
+            return User.FindFirstValue(ClaimTypes.Name);
         }
 
         private async Task<List<Category>> GetAllCategories()

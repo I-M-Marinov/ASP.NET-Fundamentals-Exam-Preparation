@@ -172,7 +172,7 @@ namespace SeminarHub.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Seminar",
+                name: "Seminars",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false, comment: "Unique Identifier of the seminar")
@@ -184,23 +184,23 @@ namespace SeminarHub.Migrations
                     DateAndTime = table.Column<DateTime>(type: "datetime2", nullable: false, comment: "Date and time of the seminar"),
                     Duration = table.Column<int>(type: "int", nullable: true, comment: "Duration of the seminar"),
                     CategoryId = table.Column<int>(type: "int", nullable: false),
-                    IsDeleted = table.Column<bool>(type: "bit", nullable: true)
+                    IsDeleted = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Seminar", x => x.Id);
+                    table.PrimaryKey("PK_Seminars", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Seminar_AspNetUsers_OrganizerId",
+                        name: "FK_Seminars_AspNetUsers_OrganizerId",
                         column: x => x.OrganizerId,
                         principalTable: "AspNetUsers",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.NoAction);
                     table.ForeignKey(
-                        name: "FK_Seminar_Categories_CategoryId",
+                        name: "FK_Seminars_Categories_CategoryId",
                         column: x => x.CategoryId,
                         principalTable: "Categories",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.NoAction);
                 });
 
             migrationBuilder.CreateTable(
@@ -218,11 +218,11 @@ namespace SeminarHub.Migrations
                         column: x => x.ParticipantId,
                         principalTable: "AspNetUsers",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.NoAction);
                     table.ForeignKey(
-                        name: "FK_SeminarsParticipants_Seminar_SeminarId",
+                        name: "FK_SeminarsParticipants_Seminars_SeminarId",
                         column: x => x.SeminarId,
-                        principalTable: "Seminar",
+                        principalTable: "Seminars",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.NoAction);
                 });
@@ -278,13 +278,13 @@ namespace SeminarHub.Migrations
                 filter: "[NormalizedUserName] IS NOT NULL");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Seminar_CategoryId",
-                table: "Seminar",
+                name: "IX_Seminars_CategoryId",
+                table: "Seminars",
                 column: "CategoryId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Seminar_OrganizerId",
-                table: "Seminar",
+                name: "IX_Seminars_OrganizerId",
+                table: "Seminars",
                 column: "OrganizerId");
 
             migrationBuilder.CreateIndex(
@@ -318,7 +318,7 @@ namespace SeminarHub.Migrations
                 name: "AspNetRoles");
 
             migrationBuilder.DropTable(
-                name: "Seminar");
+                name: "Seminars");
 
             migrationBuilder.DropTable(
                 name: "AspNetUsers");

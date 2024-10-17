@@ -14,7 +14,10 @@ namespace SeminarHub.Models
         [StringLength(TopicMaxLength, MinimumLength = TopicMinLength)]
         public string Topic { get; set; } = string.Empty;
 
-        [Required] public string Lecturer { get; set; } = string.Empty;
+        [Required]
+        [StringLength(LecturerMaxLength, MinimumLength = LecturerMinLength)]
+
+        public string Lecturer { get; set; } = string.Empty;
 
         [Required]
         [StringLength(DetailsMaxLength, MinimumLength = DetailsMinLength)]

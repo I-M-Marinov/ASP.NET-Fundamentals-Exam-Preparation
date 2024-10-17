@@ -1,20 +1,18 @@
-﻿using Microsoft.AspNetCore.Identity;
-using SeminarHub.Data;
-
-
+﻿
 namespace SeminarHub.Models
 {
     public class SeminarInfoViewModel
     {
         public int Id { get; set; }
-        public string Topic { get; set; } = null!;
 
-        public string Lecturer { get; set; } = null!;
+        public required string Topic { get; set; }
 
-        public string DateAndTime { get; set; } = null!;
+        public required string Lecturer { get; set; } 
 
-        public string Category { get; set; } = null!;
+        public required string DateAndTime { get; set; } 
 
-        public string Organizer { get; set; } = null!;
+        public required string Category { get; set; } 
+
+        public required string Organizer { get; set; } 
     }
 }

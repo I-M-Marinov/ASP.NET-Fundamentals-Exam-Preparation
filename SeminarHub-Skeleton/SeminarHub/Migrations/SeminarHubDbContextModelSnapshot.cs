@@ -292,7 +292,7 @@ namespace SeminarHub.Migrations
                         .HasColumnType("int")
                         .HasComment("Duration of the seminar");
 
-                    b.Property<bool?>("IsDeleted")
+                    b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
                     b.Property<string>("Lecturer")
