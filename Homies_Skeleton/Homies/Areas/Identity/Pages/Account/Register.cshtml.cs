@@ -105,7 +105,7 @@ namespace Homies.Areas.Identity.Pages.Account
 
             if (User.Identity.IsAuthenticated)
             {
-                _logger.LogInformation($"--------------------Logged in user {User.Identity.Name} redirected to Game/All tried to access Register page."); // logging an attempt of a logged-in user trying to access the Register page
+                _logger.LogInformation($"--------------------Logged in user {User.Identity.Name} redirected to Event/All tried to access Register page."); // logging an attempt of a logged-in user trying to access the Register page
                 return RedirectToAction("All", "Event"); // Redirect authenticated users
             }
 

@@ -89,7 +89,7 @@ namespace Homies.Areas.Identity.Pages.Account
 
             if (User.Identity.IsAuthenticated)
             {
-                _logger.LogInformation($"--------------------Logged in user {User.Identity.Name} redirected to Game/All tried to access Login page."); // logging an attempt of a logged-in user trying to access the Login page
+                _logger.LogInformation($"--------------------Logged in user {User.Identity.Name} redirected to Event/All tried to access Login page."); // logging an attempt of a logged-in user trying to access the Login page
                 return RedirectToAction("All", "Event"); // Redirect authenticated users
             }
 
@@ -123,8 +123,8 @@ namespace Homies.Areas.Identity.Pages.Account
                 var result = await _signInManager.PasswordSignInAsync(Input.Email, Input.Password, Input.RememberMe, lockoutOnFailure: false);
                 if (result.Succeeded)
                 {
-                    _logger.LogInformation("User logged in.");
-                    return LocalRedirect(returnUrl);
+                    _logger.LogInformation($"******************** User {User.Identity.Name} has logged in. ********************");
+                    return RedirectToAction("All", "Event"); // Redirect the user to the Event/All after a successful login
                 }
                 if (result.RequiresTwoFactor)
                 {
