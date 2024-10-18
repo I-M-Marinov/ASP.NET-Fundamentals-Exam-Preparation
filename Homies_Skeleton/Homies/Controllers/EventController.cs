@@ -175,6 +175,84 @@ namespace Homies.Controllers
             return RedirectToAction(nameof(All));
         }
 
+        [HttpGet]
+        public async Task<IActionResult> Edit(int id)
+        {
+            var currentUserId = GetCurrentUserId();
+
+            var IsOrganiser = await context.Events
+                .AnyAsync(e => e.OrganiserId == currentUserId && e.Id == id);
+
+            var isDeleted = await context.Events.AnyAsync(g => g.Id == id && g.IsDeleted == true);
+
+            if (!IsOrganiser || isDeleted) // check if the user is not the organizer of the event he wants to edit or the event was deleted already
+            {
+                return RedirectToAction(nameof(All)); // If yes ----> Redirects the user to the Event/All page 
+            }
+
+            var model = await context.Events
+                .Where(e => e.Id == id)
+                .AsNoTracking()
+                .Select(e => new EventViewModel
+                {
+                    Name = e.Name,
+                    Description = e.Description,
+                    CreatedOn = e.CreatedOn.ToString(DateTimeFormat),
+                    Start = e.Start.ToString(DateTimeFormat),
+                    End = e.End.ToString(DateTimeFormat),
+                    TypeId = e.TypeId,
+                })
+                .FirstOrDefaultAsync();
+
+
+            model.Types = await GetAllTypes();
+
+            return View(model);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Edit(EventViewModel model, int id)
+        {
+
+            if (!ModelState.IsValid)
+            {
+                model.Types = await GetAllTypes();
+                return View(model);
+            }
+
+            if (DateTime.TryParseExact(model.Start, AcceptedDateTimeFormats, CultureInfo.CurrentCulture, DateTimeStyles.None, out DateTime startDateAndTime) == false)
+            {
+                ModelState.AddModelError(nameof(model.Start), "Invalid start date and time format!");
+                model.Types = await GetAllTypes();
+                return View(model);
+            }
+
+            if (DateTime.TryParseExact(model.End, AcceptedDateTimeFormats, CultureInfo.CurrentCulture, DateTimeStyles.None, out DateTime endDateAndTime) == false)
+            {
+                ModelState.AddModelError(nameof(model.End), "Invalid end date and time format!");
+                model.Types = await GetAllTypes();
+                return View(model);
+            }
+
+            Event? eventToEdit = await context.Events.FindAsync(id);
+
+            if (eventToEdit == null || eventToEdit.IsDeleted)
+            {
+                throw new ArgumentException("Invalid Id");
+            }
+
+            eventToEdit.Name = model.Name;
+            eventToEdit.Description = model.Description;
+            eventToEdit.CreatedOn = DateTime.Now;
+            eventToEdit.Start = startDateAndTime;
+            eventToEdit.End = endDateAndTime;
+            eventToEdit.TypeId = model.TypeId;
+
+            await context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(All));
+        }
+
         private string? GetCurrentUserId()
         {
             return User.FindFirstValue(ClaimTypes.NameIdentifier);

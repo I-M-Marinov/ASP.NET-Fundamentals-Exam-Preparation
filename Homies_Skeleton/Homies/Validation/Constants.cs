@@ -13,7 +13,7 @@ namespace Homies.Validation
         public const byte EventDescriptionMaxLength = 150;
 
         public const string DateTimeFormat = "yyyy-MM-dd H:mm";
-
+        public static readonly string[] AcceptedDateTimeFormats = { "yyyy-MM-dd H:mm", "dd/MM/yyyy H:mm" };
         // TYPE 
 
         public const byte TypeNameMinLength = 5;

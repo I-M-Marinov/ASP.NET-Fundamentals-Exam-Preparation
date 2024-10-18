@@ -19,10 +19,10 @@ namespace Homies.Models
         public string CreatedOn { get; set; } = DateTime.Now.ToString(DateTimeFormat); // set the creation date and time to NOW 
 
         [Required]
-        public string Start { get; set; } = string.Empty;
+        public string Start { get; set; } = DateTime.Today.ToString(DateTimeFormat);
 
         [Required]
-        public string End { get; set; } = string.Empty;
+        public string End { get; set; } = DateTime.Today.ToString(DateTimeFormat);
 
         [Required]
         public int TypeId { get; set; }
