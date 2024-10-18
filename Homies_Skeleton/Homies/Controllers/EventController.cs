@@ -21,14 +21,14 @@ namespace Homies.Controllers
         {
 
             var model = await context.Events
-                .Where(s => s.IsDeleted == false)
-                .Select(s => new EventInfoViewModel()
+                .Where(e => e.IsDeleted == false)
+                .Select(e => new EventInfoViewModel()
                 {
-                    Id = s.Id,
-                    Name = s.Name,
-                    Start = s.Start.ToString(DateTimeFormat),
-                    Organiser = s.Organiser.UserName ?? string.Empty,
-                    Type = s.Type.Name
+                    Id = e.Id,
+                    Name = e.Name,
+                    Start = e.Start.ToString(DateTimeFormat),
+                    Organiser = e.Organiser.UserName ?? string.Empty,
+                    Type = e.Type.Name
                 })
                 .AsNoTracking()
                 .ToListAsync();
@@ -92,6 +92,62 @@ namespace Homies.Controllers
             await context.SaveChangesAsync();
 
             return RedirectToAction(nameof(All));
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Joined()
+        {
+
+            string currentUserId = GetCurrentUserId() ?? string.Empty;
+
+            var model = await context.Events
+                .Where(e => e.IsDeleted == false)
+                .Where(e => e.EventsParticipants.Any(ep => ep.HelperId == currentUserId))
+                .Select(e => new EventInfoViewModel()
+                {
+                    Id = e.Id,
+                    Name = e.Name,
+                    Start = e.Start.ToString(DateTimeFormat),
+                    Organiser = e.Organiser.UserName ?? string.Empty,
+                    Type = e.Type.Name
+                })
+                .AsNoTracking()
+                .ToListAsync();
+
+            return View(model);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Join(int id)
+        {
+
+            Event? eventToAdd = await context.Events
+                .Where(e => e.Id == id)
+                .Include(e => e.EventsParticipants)
+                .FirstOrDefaultAsync();
+
+
+            if (eventToAdd == null || eventToAdd.IsDeleted)
+            {
+                throw new ArgumentException("Invalid Id");
+            }
+
+            string currentUserId = GetCurrentUserId() ?? string.Empty;
+
+            if (eventToAdd.EventsParticipants.Any(ep => ep.HelperId == currentUserId))
+            {
+                return RedirectToAction(nameof(All)); // If a User tries to add an already added Event to his seminars, they will be redirected to Event/All
+            }
+
+            eventToAdd.EventsParticipants.Add(new EventParticipant()
+            {
+                HelperId = currentUserId,
+                EventId = eventToAdd.Id
+            });
+
+            await context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Joined));
         }
 
         private string? GetCurrentUserId()

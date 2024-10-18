@@ -50,7 +50,7 @@ namespace Homies.Data
         [Comment("Shows if the Event is deleted or not")]
         public bool IsDeleted { get; set; } // Soft Delete Implementation 
 
-        public ICollection<EventParticipant> EventsParticipants = new List<EventParticipant>();
+        public ICollection<EventParticipant> EventsParticipants { get; set; } = new List<EventParticipant>();
 
 
     }

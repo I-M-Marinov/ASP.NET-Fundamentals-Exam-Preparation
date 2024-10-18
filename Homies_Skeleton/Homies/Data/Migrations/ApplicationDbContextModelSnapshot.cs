@@ -72,7 +72,7 @@ namespace Homies.Data.Migrations
 
                     b.HasIndex("TypeId");
 
-                    b.ToTable("Events");
+                    b.ToTable("Events", (string)null);
                 });
 
             modelBuilder.Entity("Homies.Data.EventParticipant", b =>
@@ -87,7 +87,7 @@ namespace Homies.Data.Migrations
 
                     b.HasIndex("EventId");
 
-                    b.ToTable("EventsParticipants");
+                    b.ToTable("EventsParticipants", (string)null);
                 });
 
             modelBuilder.Entity("Homies.Data.Type", b =>
@@ -106,7 +106,7 @@ namespace Homies.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Types");
+                    b.ToTable("Types", (string)null);
 
                     b.HasData(
                         new
