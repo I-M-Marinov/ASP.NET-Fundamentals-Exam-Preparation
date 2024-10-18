@@ -253,6 +253,29 @@ namespace Homies.Controllers
             return RedirectToAction(nameof(All));
         }
 
+
+        [HttpGet]
+        public async Task<IActionResult> Details(int id)
+        {
+            var model = await context.Events
+                .Where(e => e.Id == id)
+                .Where(e => e.IsDeleted == false)
+                .AsNoTracking()
+                .Select(e => new EventDetailsViewModel
+                {
+                    Name = e.Name,
+                    Start = e.Start.ToString(DateTimeFormat),
+                    End = e.End.ToString(DateTimeFormat),
+                    CreatedOn = e.CreatedOn.ToString(DateTimeFormat),
+                    Description = e.Description,
+                    Type = e.Type.Name,
+                    Organiser = e.Organiser.UserName
+                })
+                .FirstOrDefaultAsync();
+
+            return View(model);
+        }
+
         private string? GetCurrentUserId()
         {
             return User.FindFirstValue(ClaimTypes.NameIdentifier);
