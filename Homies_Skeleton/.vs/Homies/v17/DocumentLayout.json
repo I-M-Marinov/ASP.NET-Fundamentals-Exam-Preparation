@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\homies_skeleton\\homies\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|solutionrelative:homies\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\homies_skeleton\\homies\\data\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|solutionrelative:homies\\data\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\homies_skeleton\\homies\\models\\eventinfoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|solutionrelative:homies\\models\\eventinfoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\homies_skeleton\\homies\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|solutionrelative:homies\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\homies_skeleton\\homies\\models\\eventviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,17 +58,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 19,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "EventController.cs",
               "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\Controllers\\EventController.cs",
               "RelativeDocumentMoniker": "Homies\\Controllers\\EventController.cs",
               "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\Controllers\\EventController.cs",
               "RelativeToolTip": "Homies\\Controllers\\EventController.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAAwHMAAAAAAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAqwKwAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T07:37:25.416Z",
               "IsPinned": true,
@@ -148,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "EventInfoViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\Models\\EventInfoViewModel.cs",
               "RelativeDocumentMoniker": "Homies\\Models\\EventInfoViewModel.cs",
@@ -239,13 +239,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Event.cs",
               "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\Data\\Event.cs",
               "RelativeDocumentMoniker": "Homies\\Data\\Event.cs",
               "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\Data\\Event.cs",
               "RelativeToolTip": "Homies\\Data\\Event.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAiwCwAAAAnAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAAiwDkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T07:01:30.292Z",
               "EditorCaption": ""

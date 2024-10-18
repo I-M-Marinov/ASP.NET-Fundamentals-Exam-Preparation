@@ -12,7 +12,7 @@ using Type = Homies.Data.Type;
 namespace Homies.Controllers
 {
     [Authorize]
-    public class EventController(HomiesDbContext _context) : Controller // USE PRIMARY CONSTRUCTOR for the dependency injection
+    public class EventController(HomiesDbContext _context) : Controller // Using the primary constructor for the dependency injection
     {
         private readonly HomiesDbContext context = _context;
 
@@ -148,6 +148,31 @@ namespace Homies.Controllers
             await context.SaveChangesAsync();
 
             return RedirectToAction(nameof(Joined));
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Leave(int id)
+        {
+            Event? eventToUnsubscribeFrom = await context.Events
+                .Where(e => e.Id == id)
+                .Include(e => e.EventsParticipants)
+                .FirstOrDefaultAsync();
+
+            if (eventToUnsubscribeFrom == null || eventToUnsubscribeFrom.IsDeleted)
+            {
+                throw new ArgumentException("Id is not valid.");
+            }
+
+            string currentUserId = GetCurrentUserId() ?? string.Empty;
+            EventParticipant? eventParticipant = eventToUnsubscribeFrom.EventsParticipants.FirstOrDefault(sp => sp.HelperId == currentUserId);
+
+            if (eventParticipant != null)
+            {
+                eventToUnsubscribeFrom.EventsParticipants.Remove(eventParticipant);
+                await context.SaveChangesAsync();
+            }
+
+            return RedirectToAction(nameof(All));
         }
 
         private string? GetCurrentUserId()
