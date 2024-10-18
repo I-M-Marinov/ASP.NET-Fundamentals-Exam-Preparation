@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\homies_skeleton\\homies\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|solutionrelative:homies\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\homies_skeleton\\homies\\views\\event\\all.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|solutionrelative:homies\\views\\event\\all.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\homies_skeleton\\homies\\views\\event\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|solutionrelative:homies\\views\\event\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\homies_skeleton\\homies\\data\\type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|solutionrelative:homies\\data\\type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\homies_skeleton\\homies\\models\\eventviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|solutionrelative:homies\\models\\eventviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\homies_skeleton\\homies\\models\\eventinfoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|solutionrelative:homies\\models\\eventinfoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\homies_skeleton\\homies\\data\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|solutionrelative:homies\\data\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\homies_skeleton\\homies\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|solutionrelative:homies\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -11,20 +39,12 @@
       "RelativeMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|solutionrelative:homies\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\homies_skeleton\\homies\\data\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|solutionrelative:homies\\data\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\homies_skeleton\\homies\\validation\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|solutionrelative:homies\\validation\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\homies_skeleton\\homies\\data\\eventparticipant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|solutionrelative:homies\\data\\eventparticipant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\homies_skeleton\\homies\\data\\type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|solutionrelative:homies\\data\\type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,8 +54,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "Homies\\Controllers\\EventController.cs",
+              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\Controllers\\EventController.cs",
+              "RelativeToolTip": "Homies\\Controllers\\EventController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAcwBwAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T07:37:25.416Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EventViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\Models\\EventViewModel.cs",
+              "RelativeDocumentMoniker": "Homies\\Models\\EventViewModel.cs",
+              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\Models\\EventViewModel.cs",
+              "RelativeToolTip": "Homies\\Models\\EventViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T07:52:09.248Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "All.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\Views\\Event\\All.cshtml",
+              "RelativeDocumentMoniker": "Homies\\Views\\Event\\All.cshtml",
+              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\Views\\Event\\All.cshtml",
+              "RelativeToolTip": "Homies\\Views\\Event\\All.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T08:50:29.167Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -70,7 +131,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "EventInfoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\Models\\EventInfoViewModel.cs",
+              "RelativeDocumentMoniker": "Homies\\Models\\EventInfoViewModel.cs",
+              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\Models\\EventInfoViewModel.cs",
+              "RelativeToolTip": "Homies\\Models\\EventInfoViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T08:24:07.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\Views\\Event\\Add.cshtml",
+              "RelativeDocumentMoniker": "Homies\\Views\\Event\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\Views\\Event\\Add.cshtml",
+              "RelativeToolTip": "Homies\\Views\\Event\\Add.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T07:52:13.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Homies\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
@@ -83,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Homies\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
@@ -96,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Constants.cs",
               "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\Validation\\Constants.cs",
               "RelativeDocumentMoniker": "Homies\\Validation\\Constants.cs",
@@ -109,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "EventParticipant.cs",
               "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\Data\\EventParticipant.cs",
               "RelativeDocumentMoniker": "Homies\\Data\\EventParticipant.cs",
@@ -122,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Type.cs",
               "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\Data\\Type.cs",
               "RelativeDocumentMoniker": "Homies\\Data\\Type.cs",
@@ -135,13 +222,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Event.cs",
               "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\Data\\Event.cs",
               "RelativeDocumentMoniker": "Homies\\Data\\Event.cs",
               "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\Data\\Event.cs",
               "RelativeToolTip": "Homies\\Data\\Event.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACYAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T07:01:30.292Z",
               "EditorCaption": ""
