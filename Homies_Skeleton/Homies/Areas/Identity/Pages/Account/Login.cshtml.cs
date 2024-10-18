@@ -84,8 +84,15 @@ namespace Homies.Areas.Identity.Pages.Account
             public bool RememberMe { get; set; }
         }
 
-        public async Task OnGetAsync(string returnUrl = null)
+        public async Task<IActionResult> OnGetAsync(string returnUrl = null)
         {
+
+            if (User.Identity.IsAuthenticated)
+            {
+                _logger.LogInformation($"--------------------Logged in user {User.Identity.Name} redirected to Game/All tried to access Login page."); // logging an attempt of a logged-in user trying to access the Login page
+                return RedirectToAction("All", "Event"); // Redirect authenticated users
+            }
+
             if (!string.IsNullOrEmpty(ErrorMessage))
             {
                 ModelState.AddModelError(string.Empty, ErrorMessage);
@@ -99,6 +106,8 @@ namespace Homies.Areas.Identity.Pages.Account
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
 
             ReturnUrl = returnUrl;
+
+            return Page();
         }
 
         public async Task<IActionResult> OnPostAsync(string returnUrl = null)
