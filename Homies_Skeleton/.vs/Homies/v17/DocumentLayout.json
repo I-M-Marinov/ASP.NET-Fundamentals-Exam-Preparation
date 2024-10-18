@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\homies_skeleton\\homies\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|solutionrelative:homies\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\Data\\Migrations\\20241018072940_InitialMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Homies\\Data\\Migrations\\20241018072940_InitialMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\homies_skeleton\\homies\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|solutionrelative:homies\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\homies_skeleton\\homies\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|solutionrelative:homies\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\Data\\Migrations\\20241018072833_InitialMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Homies\\Data\\Migrations\\20241018072833_InitialMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\homies_skeleton\\homies\\data\\homiesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|solutionrelative:homies\\data\\homiesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\homies_skeleton\\homies\\data\\type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|solutionrelative:homies\\data\\type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\homies_skeleton\\homies\\data\\eventparticipant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|solutionrelative:homies\\data\\eventparticipant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\homies_skeleton\\homies\\data\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|solutionrelative:homies\\data\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|c:\\users\\marinov\\source\\repos\\asp.net fundamentals - exam preparation\\asp.net-fundamentals-exam-preparation\\homies_skeleton\\homies\\validation\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|solutionrelative:homies\\validation\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,14 +83,118 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ScaffoldingReadMe.txt",
-              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\ScaffoldingReadMe.txt",
-              "RelativeDocumentMoniker": "Homies\\ScaffoldingReadMe.txt",
-              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\ScaffoldingReadMe.txt",
-              "RelativeToolTip": "Homies\\ScaffoldingReadMe.txt",
+              "Title": "20241018072940_InitialMigration.cs",
+              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\Data\\Migrations\\20241018072940_InitialMigration.cs",
+              "RelativeDocumentMoniker": "Homies\\Data\\Migrations\\20241018072940_InitialMigration.cs",
+              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\Data\\Migrations\\20241018072940_InitialMigration.cs",
+              "RelativeToolTip": "Homies\\Data\\Migrations\\20241018072940_InitialMigration.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAgwHkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T07:29:41.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\appsettings.json",
+              "RelativeDocumentMoniker": "Homies\\appsettings.json",
+              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\appsettings.json",
+              "RelativeToolTip": "Homies\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-18T07:29:15.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Homies\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\appsettings.Development.json",
+              "RelativeToolTip": "Homies\\appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-10-18T06:57:02.259Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-18T07:29:11.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20241018072833_InitialMigration.cs",
+              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\Data\\Migrations\\20241018072833_InitialMigration.cs",
+              "RelativeDocumentMoniker": "Homies\\Data\\Migrations\\20241018072833_InitialMigration.cs",
+              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\Data\\Migrations\\20241018072833_InitialMigration.cs",
+              "RelativeToolTip": "Homies\\Data\\Migrations\\20241018072833_InitialMigration.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAgwDsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T07:28:33.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomiesDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\Data\\HomiesDbContext.cs",
+              "RelativeDocumentMoniker": "Homies\\Data\\HomiesDbContext.cs",
+              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\Data\\HomiesDbContext.cs",
+              "RelativeToolTip": "Homies\\Data\\HomiesDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T07:23:51.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Constants.cs",
+              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\Validation\\Constants.cs",
+              "RelativeDocumentMoniker": "Homies\\Validation\\Constants.cs",
+              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\Validation\\Constants.cs",
+              "RelativeToolTip": "Homies\\Validation\\Constants.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T07:05:47.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EventParticipant.cs",
+              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\Data\\EventParticipant.cs",
+              "RelativeDocumentMoniker": "Homies\\Data\\EventParticipant.cs",
+              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\Data\\EventParticipant.cs",
+              "RelativeToolTip": "Homies\\Data\\EventParticipant.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T07:04:44.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Type.cs",
+              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\Data\\Type.cs",
+              "RelativeDocumentMoniker": "Homies\\Data\\Type.cs",
+              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\Data\\Type.cs",
+              "RelativeToolTip": "Homies\\Data\\Type.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T07:04:20.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\Data\\Event.cs",
+              "RelativeDocumentMoniker": "Homies\\Data\\Event.cs",
+              "ToolTip": "C:\\Users\\Marinov\\source\\repos\\ASP.NET Fundamentals - Exam Preparation\\ASP.NET-Fundamentals-Exam-Preparation\\Homies_Skeleton\\Homies\\Data\\Event.cs",
+              "RelativeToolTip": "Homies\\Data\\Event.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAADQAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T07:01:30.292Z",
               "EditorCaption": ""
             }
           ]
