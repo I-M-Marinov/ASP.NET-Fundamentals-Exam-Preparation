@@ -275,6 +275,82 @@ namespace DeskMarket.Controllers
             return RedirectToAction(nameof(Details), new { id }); // Upon successful Editing of a Product, you should be redirected to the /Product/Details/{product_id}
         }
 
+        [AllowAnonymous]
+        [HttpGet]
+        public async Task<IActionResult> Details(int id)
+        {
+            var currentUserId = GetCurrentUserId();
+
+
+            var model = await context.Products
+                .Where(p => p.Id == id)
+                .Where(p => p.IsDeleted == false)
+                .AsNoTracking()
+                .Select(p => new ProductDetailsViewModel()
+                {
+                    Id = p.Id,
+                    ProductName = p.ProductName,
+                    Description = p.Description,
+                    ImageUrl = p.ImageUrl,
+                    AddedOn = p.AddedOn.ToString(AddedOnFormat),
+                    Price = p.Price,
+                    Seller = p.Seller.UserName ?? string.Empty,
+                    CategoryName = p.Category.Name,
+                    HasBought = p.ProductsClients.Any(pc => pc.ClientId == currentUserId)
+                })
+                .FirstOrDefaultAsync();
+
+            return View(model);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var currentUserId = GetCurrentUserId();
+
+            var isSeller = await context.Products
+                .AnyAsync(p => p.SellerId == currentUserId && p.Id == id);
+
+            var isDeleted = await context.Products.AnyAsync(p => p.Id == id && p.IsDeleted == true);
+
+            if (!isSeller || isDeleted) // check if the user is not the seller of the product he wants to delete or the product is deleted already
+            {
+                return RedirectToAction(nameof(Index)); // If yes ----> Redirects the user to the Product/Index
+            }
+
+            var model = await context.Products
+                .Where(p => p.Id == id)
+                .Where(p => p.IsDeleted == false)
+                .AsNoTracking()
+                .Select(p => new ProductDeleteViewModel()
+                {
+                    Id = p.Id,
+                    ProductName = p.ProductName,
+                    SellerId = p.SellerId,
+                    Seller = p.Seller.UserName ?? string.Empty
+                })
+                .FirstOrDefaultAsync();
+
+            return View(model);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Delete(ProductDeleteViewModel product)
+        {
+            Product? game = await context.Products
+                .Where(p => p.Id == product.Id)
+                .Where(p => p.IsDeleted == false)
+                .FirstOrDefaultAsync();
+
+            if (game != null)
+            {
+                game.IsDeleted = true; // Implementation of the Soft Delete 
+                await context.SaveChangesAsync();
+            }
+
+            return RedirectToAction(nameof(Index));
+        }
+
 
         private string? GetCurrentUserId()
         {
