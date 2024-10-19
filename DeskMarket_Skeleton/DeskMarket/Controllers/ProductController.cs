@@ -7,7 +7,6 @@ using static DeskMarket.Validation.Constants;
 using System.Globalization;
 using System.Security.Claims;
 using DeskMarket.Data.Models;
-using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.Blazor;
 
 
 namespace DeskMarket.Controllers
@@ -192,6 +191,7 @@ namespace DeskMarket.Controllers
 
             return RedirectToAction(nameof(Cart)); // Upon successful Removal of a Product from the User's Cart, should be redirected to the /Product/Cart
         }
+
 
         [HttpGet]
         public async Task<IActionResult> Edit(int id)
