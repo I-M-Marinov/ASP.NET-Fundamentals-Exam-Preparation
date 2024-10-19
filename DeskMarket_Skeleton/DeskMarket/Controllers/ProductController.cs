@@ -98,7 +98,99 @@ namespace DeskMarket.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        [HttpPost]
+        public async Task<IActionResult> AddToCart(int id)
+        {
+            string currentUserId = GetCurrentUserId() ?? string.Empty;
 
+            Product? productToAdd = await context.Products
+                .Where(p => p.Id == id)
+                .Include(p => p.ProductsClients)
+                .FirstOrDefaultAsync();
+
+            bool isDuplicate = await context.ProductsClients
+                .AsNoTracking()
+                .AnyAsync(pc => pc.ProductId == productToAdd.Id && pc.ClientId == currentUserId);
+
+
+            if (productToAdd == null || productToAdd.IsDeleted)
+            {
+                throw new ArgumentException("Id is invalid");
+            }
+
+            if (isDuplicate)
+            {
+                ModelState.AddModelError(string.Empty, "Products cannot be duplicated");
+                return RedirectToAction(nameof(Index));
+            }
+
+
+            if (productToAdd.ProductsClients.Any(pc => pc.ClientId == currentUserId))
+            {
+                return RedirectToAction(nameof(Index)); // If a User tries to add an already added product to his cart, they will be redirected to Product/Index
+            }
+
+            productToAdd.ProductsClients.Add(new ProductClient()
+            {
+                ClientId = currentUserId,
+                ProductId = productToAdd.Id
+            });
+
+
+            await context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index)); // Upon successful Adding a Product to the User's Cart, should be redirected to the /Product/Index
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Cart()
+        {
+
+            string currentUserId = GetCurrentUserId() ?? string.Empty;
+
+            var model = await context.Products
+                .Where(p => p.IsDeleted == false)
+                .Where(p => p.ProductsClients.Any(pc => pc.ClientId == currentUserId))
+                .Select(p => new ProductInfoViewModel()
+                {
+                    Id = p.Id,
+                    ProductName = p.ProductName,
+                    ImageUrl = p.ImageUrl,
+                    Price = p.Price,
+                    IsSeller = p.SellerId == currentUserId,
+                    HasBought = p.ProductsClients.Any(pc => pc.ClientId == currentUserId)
+                })
+                .AsNoTracking()
+                .ToListAsync();
+
+            return View(model);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> RemoveFromCart(int id)
+        {
+            Product? productToRemove = await context.Products
+                .Where(p => p.Id == id)
+                .Include(e => e.ProductsClients)
+                .FirstOrDefaultAsync();
+
+            if (productToRemove == null || productToRemove.IsDeleted)
+            {
+                throw new ArgumentException("Product Id is not valid.");
+            }
+
+            string currentUserId = GetCurrentUserId() ?? string.Empty;
+
+            ProductClient? productClient = productToRemove.ProductsClients.FirstOrDefault(pc => pc.ClientId == currentUserId);
+
+            if (productClient != null)
+            {
+                productToRemove.ProductsClients.Remove(productClient);
+                await context.SaveChangesAsync();
+            }
+
+            return RedirectToAction(nameof(Cart)); // Upon successful Removal of a Product from the User's Cart, should be redirected to the /Product/Cart
+        }
 
         private string? GetCurrentUserId()
         {
