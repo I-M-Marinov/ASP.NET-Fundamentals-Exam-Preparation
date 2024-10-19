@@ -1,12 +1,12 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using DeskMarket.Data;
-using DeskMarket.Models;
 using Microsoft.EntityFrameworkCore;
 using static DeskMarket.Validation.Constants;
 using System.Globalization;
 using System.Security.Claims;
 using DeskMarket.Data.Models;
+using DeskMarket.Models.Product;
 
 
 namespace DeskMarket.Controllers

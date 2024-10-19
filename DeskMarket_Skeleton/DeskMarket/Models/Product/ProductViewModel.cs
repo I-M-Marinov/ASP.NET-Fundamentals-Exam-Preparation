@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using static DeskMarket.Validation.Constants;
 
 
-namespace DeskMarket.Models
+namespace DeskMarket.Models.Product
 {
     public class ProductViewModel
     {
@@ -18,7 +18,7 @@ namespace DeskMarket.Models
         [Precision(18, 2)]
         public decimal Price { get; set; }
         public string? ImageUrl { get; set; }
-        [Required] 
+        [Required]
         public string AddedOn { get; set; } = null!;
         [Required]
         public int CategoryId { get; set; }

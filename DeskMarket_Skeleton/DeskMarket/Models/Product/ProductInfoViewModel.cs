@@ -1,4 +1,4 @@
-﻿namespace DeskMarket.Models
+﻿namespace DeskMarket.Models.Product
 {
     public class ProductInfoViewModel
     {
@@ -10,9 +10,8 @@
 
         public decimal Price { get; set; }
 
-        public bool IsSeller { get; set; } 
+        public bool IsSeller { get; set; }
 
         public bool HasBought { get; set; }
     }
 }
- 
