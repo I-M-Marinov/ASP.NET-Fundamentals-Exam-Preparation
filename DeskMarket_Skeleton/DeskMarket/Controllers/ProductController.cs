@@ -7,6 +7,7 @@ using static DeskMarket.Validation.Constants;
 using System.Globalization;
 using System.Security.Claims;
 using DeskMarket.Data.Models;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.Blazor;
 
 
 namespace DeskMarket.Controllers
@@ -191,6 +192,89 @@ namespace DeskMarket.Controllers
 
             return RedirectToAction(nameof(Cart)); // Upon successful Removal of a Product from the User's Cart, should be redirected to the /Product/Cart
         }
+
+        [HttpGet]
+        public async Task<IActionResult> Edit(int id)
+        {
+            var currentUserId = GetCurrentUserId();
+
+            var isSeller = await context.Products
+                .AnyAsync(p => p.SellerId == currentUserId && p.Id == id);
+
+            var isDeleted = await context.Products.AnyAsync(p => p.Id == id && p.IsDeleted == true);
+
+            if (!isSeller || isDeleted) // check if the user is not the seller of the product he wants to buy or the product is deleted already
+            {
+                return RedirectToAction(nameof(Index)); // If yes ----> Redirects the user to the Product/Index
+            }
+
+
+            var productToEdit = await context.Products
+                .Where(p => p.Id == id)
+                .AsNoTracking()
+                .Select(p => new ProductViewModel
+                {
+                    ProductName = p.ProductName,
+                    Description = p.Description,
+                    Price = p.Price,
+                    ImageUrl = p.ImageUrl,
+                    AddedOn = p.AddedOn.ToString(AddedOnFormat),
+                    CategoryId = p.CategoryId,
+                    SellerId = p.SellerId,
+                })
+                .FirstOrDefaultAsync();
+
+            productToEdit.Categories = await GetCategories();
+
+            return View(productToEdit);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Edit(ProductViewModel model, int id)
+        {
+
+            if (!ModelState.IsValid)
+            {
+                model.Categories = await GetCategories();
+                return View(model);
+            }
+
+            if (model.Price < ProductPriceMinValue || model.Price > ProductPriceMaxValue)
+            {
+                ModelState.AddModelError(nameof(model.Price), "The price must be between 1.00 and 3000.00.");
+                model.Categories = await GetCategories();
+                return View(model);
+            }
+
+            if (DateTime.TryParseExact(model.AddedOn, AddedOnFormat, CultureInfo.CurrentCulture, DateTimeStyles.None, out DateTime addedOn) == false)
+            {
+                ModelState.AddModelError(nameof(model.AddedOn), "Invalid added on date and time format!");
+                model.Categories = await GetCategories();
+                return View(model);
+            }
+
+            model.Categories = await GetCategories();
+
+            Product? productToEdit = await context.Products.FindAsync(id);
+
+            if (productToEdit == null || productToEdit.IsDeleted)
+            {
+                throw new ArgumentException("Product Id was invalid");
+            }
+
+            productToEdit.ProductName = model.ProductName;
+            productToEdit.Description = model.Description;
+            productToEdit.AddedOn = addedOn;
+            productToEdit.Price = model.Price;
+            productToEdit.ImageUrl = model.ImageUrl;
+            productToEdit.CategoryId = model.CategoryId;
+            productToEdit.SellerId = model.SellerId;
+
+            await context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Details), new { id }); // Upon successful Editing of a Product, you should be redirected to the /Product/Details/{product_id}
+        }
+
 
         private string? GetCurrentUserId()
         {
